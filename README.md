@@ -2,7 +2,7 @@
 
 The code for implementing the **PolarNeXt**. 
 
-![Figure1](imgs/Figure1.jpg)
+![Figure2](imgs/Figure1.jpg)
 
 
 ## News
