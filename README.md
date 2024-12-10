@@ -2,7 +2,7 @@
 
 The code for implementing the **PolarNeXt**. 
 
-![Figure2](.\imgs\Figure2.jpg)
+![Figure1](imgs\Figure1.jpg)
 
 
 ## News
@@ -12,10 +12,10 @@ The code for implementing the **PolarNeXt**.
 
 
 ## Performances
-![SFigure6](imgs/SFigure6.jpg)
+![Figure2](imgs/Figure2.jpg)
 
 
-![Table](imgs/3.jpg)
+![Table](imgs/Tabel1.jpg)
 
 All the comparison experiments are implemented on the MMDetection toolbox, trained on 2 NVIDIA RTX 4090D GPU with 2 images per GPU, and optimized with SGD.
 
