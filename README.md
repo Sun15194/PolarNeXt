@@ -37,3 +37,4 @@ Inference Speed command:
 - ```python tools\analysis_tools\benchmark.py projects/PolarNeXt/configs/polarnext_r50-torch_fpn_3x_ms_coco.py --checkpoint checkpoints/polarnext-r50-3x/epoch_36.pth --task inference --work-dir logs/polarnext-r50-benchmark```
 - ```python tools\analysis_tools\benchmark.py projects/PolarNeXt/configs/polarnext_r101-torch_fpn_3x_ms_coco.py --checkpoint checkpoints/polarnext-r101-3x/epoch_36.pth --task inference --work-dir logs/polarnext-r101-benchmark```
 
+**Note:** To compute the mask AP, the polygons detected by PolarNeXt will be converted into mask format. Therefore, for a fair comparison, please comment out lines 257–260 in [`projects/PolarNeXt/model/head.py`](projects/PolarNeXt/model/head.py) when running the inference speed command.
