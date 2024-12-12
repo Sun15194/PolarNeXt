@@ -30,10 +30,10 @@ Our PolarNeXt is based on [mmdetection](https://github.com/open-mmlab/mmdetectio
 
 ## Testing
 Test commands:
-- ```python tools\test.py projects/PolarNeXt/configs/polarnext_r50_fpn_3x_coco.py checkpoints/polarnext_r50_epoch_36.pth --work-dir logs/polarnext-r50-test```→ PolarNeXt-R50-3x
-- ```python tools\test.py projects/PolarNeXt/configs/polarnext_r50_fpn_3x_coco.py checkpoints/polarnext_r101_epoch_36.pth --work-dir logs/polarnext-r101-test```→ PolarNeXt-R101-3x
+- ```python tools\test.py projects/PolarNeXt/configs/polarnext_r50_fpn_3x_coco.py checkpoints/polarnext_r50_epoch_36.pth --work-dir logs/polarnext-r50-test```
+- ```python tools\test.py projects/PolarNeXt/configs/polarnext_r50_fpn_3x_coco.py checkpoints/polarnext_r101_epoch_36.pth --work-dir logs/polarnext-r101-test```
   
 Inference Speed command:
-- ```python tools\analysis_tools\benchmark.py projects/PolarNeXt/configs/polarnext_r50-torch_fpn_3x_ms_coco.py --checkpoint checkpoints/polarnext-r50-3x/epoch_36.pth --task inference --work-dir logs/polarnext-r50-benchmark```→ PolarNeXt-R50-3x
-- ```python tools\analysis_tools\benchmark.py projects/PolarNeXt/configs/polarnext_r101-torch_fpn_3x_ms_coco.py --checkpoint checkpoints/polarnext-r101-3x/epoch_36.pth --task inference --work-dir logs/polarnext-r101-benchmark```→ PolarNeXt-R101-3x
+- ```python tools\analysis_tools\benchmark.py projects/PolarNeXt/configs/polarnext_r50-torch_fpn_3x_ms_coco.py --checkpoint checkpoints/polarnext-r50-3x/epoch_36.pth --task inference --work-dir logs/polarnext-r50-benchmark```
+- ```python tools\analysis_tools\benchmark.py projects/PolarNeXt/configs/polarnext_r101-torch_fpn_3x_ms_coco.py --checkpoint checkpoints/polarnext-r101-3x/epoch_36.pth --task inference --work-dir logs/polarnext-r101-benchmark```
 
