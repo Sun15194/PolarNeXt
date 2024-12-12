@@ -14,7 +14,7 @@ The code for implementing the **PolarNeXt**.
 
 
 ## Models
-| Backbone | MS train | Lr schd | FPS  | AP val | AP test | Weights |
+| Backbone | MS train | Lr schd | FPS  | AP<sup>val</sup> | AP<sup>test</sup> | Weights |
 | :------: | :------: | :-----: | :--: | :----: | :-----: | :-----: |
 |   R-50   |    Y     |   3x    |  49  |  35.7  |  36.1   |  [model](www.baidu.com)  |
 |  R-101   |    Y     |   3x    |  -   |  37.1  |  37.4   |  [model](www.baidu.com)  |
