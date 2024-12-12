@@ -16,8 +16,8 @@ The code for implementing the **PolarNeXt**.
 ## Models
 | Backbone | MS train | Lr schd | FPS  | AP<sup>val</sup> | AP<sup>test</sup> | Weights |
 | :------: | :------: | :-----: | :--: | :----: | :-----: | :-----: |
-|   R-50   |    Y     |   3x    |  49  |  35.7  |  36.1   |  [model](www.baidu.com)  |
-|  R-101   |    Y     |   3x    |  -   |  37.1  |  37.4   |  [model](www.baidu.com)  |
+|   R-50   |    Y     |   3x    |  49  |  35.7  |  36.1   |  [model](https://pan.baidu.com/s/1LShE7EbeBsuK77I0hcSHbw?pwd=lyrn)  |
+|  R-101   |    Y     |   3x    |  38  |  37.1  |  37.4   |  [model](https://pan.baidu.com/s/1yXuZ01CQvnSeQNtzDOQYsA?pwd=lyrn)  |
 
 Notes:
 
@@ -30,5 +30,5 @@ Our PolarNeXt is based on [mmdetection](https://github.com/open-mmlab/mmdetectio
 
 ## Testing
 Inference testing command:
-
+-→ PolarNeXt-R50-3x:
 - ```python tools\test.py projects/PolarNeXt/configs/polarnext_r50_fpn_3x_coco.py checkpoints/polarnext_3x.pth --work-dir logs/polarnext-test```
