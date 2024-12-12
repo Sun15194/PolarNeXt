@@ -30,5 +30,6 @@ Our PolarNeXt is based on [mmdetection](https://github.com/open-mmlab/mmdetectio
 
 ## Testing
 Inference testing command:
+
 -→ PolarNeXt-R50-3x:
 - ```python tools\test.py projects/PolarNeXt/configs/polarnext_r50_fpn_3x_coco.py checkpoints/polarnext_3x.pth --work-dir logs/polarnext-test```
