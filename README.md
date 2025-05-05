@@ -4,7 +4,7 @@ The code for implementing the **PolarNeXt**.
 
 
 ## News
-- This work has been accepted by CVPR 2025. Training code will be uploaded on June 12th (CVPR conference).
+- This work has been accepted by CVPR 2025. Training code will be uploaded after June 12th (CVPR conference).
 - Test code is updated. It supports inference at 49 FPS speed on a single NVIDIA RTX 4090D GPU. (2024.12.10)
 - This work has been submitted to CVPR 2025. To ensure anonymity, all information regarding the authors and affiliations will remain undisclosed. (2024.11.15)
 
