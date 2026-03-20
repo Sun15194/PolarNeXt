@@ -4,6 +4,7 @@ The code for implementing the [**PolarNeXt**](https://openaccess.thecvf.com/cont
 
 
 ## News
+- Our latest polar-based model, [Polygon Detection Transformer (Poly-DETR)](https://github.com/Sun15194/Poly-DETR), will be released soon. The corresponding paper, [Towards Instance Segmentation with Polygon Detection Transformers](https://arxiv.org/abs/2603.09245), is now available. (2026.03.20)
 - Training code is uploaded. It supports training on dual NVIDIA RTX 4090D GPUs with about 16 hours. (2025.06.30)
 - Validation code is updated. It supports inference at 49 FPS speed on a single NVIDIA RTX 4090D GPU. (2024.12.10)
 - This work has been submitted to CVPR 2025. To ensure anonymity, all information regarding the authors and affiliations will remain undisclosed. (2024.11.15)
